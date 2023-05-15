@@ -1,3 +1,24 @@
-body{
-  background-color:blue;
+/* center anything with class title */
+.title {
+    text-align: center;
 }
+
+/* center anything with class center */
+.center {
+    text-align: center;
+}
+
+/* FONTS */
+/*Level 1: Alegreya
+  Level 2: Fira Sans
+  Level 3: Find Vadadora */
+.flvl1 {
+    font-family: 'Alegreya', serif;
+}
+.flvl2 {
+    font-family: 'Fira Sans', sans-serif;
+}
+.flvl3 {
+    font-family: 'Find Vadadora', sans-serif;
+}
+
