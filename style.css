@@ -4,10 +4,24 @@ font-family: 'Fira Sans', sans-serif;
 font-family: 'Hind Vadodara', sans-serif;
 */
 
-html {
+body {
     font-family: "Hind Vadodara", sans-serif;
     color: rgb(190, 188, 188);
     background-color: black;
+    /* set background to "assets/logo/log.png", not to repeat, centered, and fixed */
+    background: url("assets/logo/logo.png") no-repeat center fixed;
+    /* set background size to cover */
+    background-size: cover;
+    /* generate a background gradient off of "assets/logo/logo.png" */
+    background-image: url("assets/logo/logo.png"), linear-gradient(to bottom, black, black);
+    /* blur */
+    filter: blur(5px);
+
+}
+
+/* undo blur on all text */
+body {
+    filter: blur(0px);
 }
 
 .flvl1 {
