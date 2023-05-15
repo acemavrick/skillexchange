@@ -7,22 +7,15 @@ font-family: 'Hind Vadodara', sans-serif;
 body {
     font-family: "Hind Vadodara", sans-serif;
     color: rgb(190, 188, 188);
-    background-color: black;
-    /* set background to "assets/logo/log.png", not to repeat, centered, and fixed */
-    background: url("assets/logo/logo.png") no-repeat center fixed;
-    /* set background size to cover */
+    /* gradient background */
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.4),rgba(0,0,0,.7)),linear-gradient(to left bottom, #8aa9ec, #7aa6e8, #68a4e4, #54a1df, #3d9eda, #2e91d0, #1c84c5, #0077bb, #005ca6, #004290, #0c2777, #16095c);
     background-size: cover;
-    /* generate a background gradient off of "assets/logo/logo.png" */
-    background-image: url("assets/logo/logo.png"), linear-gradient(to bottom, black, black);
-    /* blur */
-    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 
 }
 
-/* undo blur on all text */
-body {
-    filter: blur(0px);
-}
 
 .flvl1 {
     font-family: "Alegreya", serif;
