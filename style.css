@@ -14,9 +14,11 @@
   Level 3: Find Vadadora */
 .flvl1 {
     font-family: 'Alegreya', serif;
+    font-style: italic;
 }
 .flvl2 {
     font-family: 'Fira Sans', sans-serif;
+    font-weight: semi-bold;
 }
 .flvl3 {
     font-family: 'Find Vadadora', sans-serif;
