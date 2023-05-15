@@ -1,26 +1,37 @@
-/* center anything with class title */
-.title {
-    text-align: center;
+/*
+font-family: 'Alegreya', serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Hind Vadodara', sans-serif;
+*/
+
+html {
+    font-family: "Hind Vadodara", sans-serif;
+    color: rgb(190, 188, 188);
+    background-color: black;
 }
 
-/* center anything with class center */
+.flvl1 {
+    font-family: "Alegreya", serif;
+    font-style: italic;
+}
+
+.flvl2 {
+    font-family: "Fira Sans", sans-serif;
+    font-style: medium;
+}
+
+.flvl3 {
+    font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+}
+
 .center {
     text-align: center;
 }
 
-/* FONTS */
-/*Level 1: Alegreya
-  Level 2: Fira Sans
-  Level 3: Find Vadadora */
-.flvl1 {
-    font-family: 'Alegreya', serif;
-    font-style: italic;
+#main-title {
+    color: white;
+    font-size: 3em;
+    font-weight: medium;
+    margin-bottom: 0.5em;
 }
-.flvl2 {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: semi-bold;
-}
-.flvl3 {
-    font-family: 'Find Vadadora', sans-serif;
-}
-
