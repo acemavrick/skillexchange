@@ -1,0 +1,2 @@
+fonts: https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Fira+Sans:wght@500&family=Hind+Vadodara:wght@400;600&display=swap (css stylesheet)
+ad_one: <iframe src="https://drive.google.com/file/d/1-r3rvvffVSr5t9-tPZbDB5pSMZ3JRsMr/preview" width="640" height="480" allow="autoplay"></iframe>
