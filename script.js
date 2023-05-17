@@ -1,2 +1,2 @@
 // change the contents of "dimensions" to width and height of viewport in pixels every time it changes
-document.getElementById("dimensions").innerHTML = window.innerWidth + "x" + window.innerHeight + " px";
+document.getElementById("dimensions").innerHTML = "The dimensions of your screen are: "+window.innerWidth+"x"+window.innerHeight+"px";

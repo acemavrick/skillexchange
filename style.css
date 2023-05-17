@@ -7,7 +7,7 @@ font-family: 'Hind Vadodara', sans-serif;
 /* queries */
 
 /* phone */
-@media(max-width: 900px) {
+@media(max-width: 719px) {
     #logo-title{
         /* disappear */
         position: absolute;
@@ -144,6 +144,7 @@ video {
     width: 100%;
     margin-bottom: .1em;
     margin-left: .1em;
+    color: rgb(85, 83, 67);
 }
 
 #ad-one-div {
