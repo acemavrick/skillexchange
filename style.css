@@ -4,6 +4,33 @@ font-family: 'Fira Sans', sans-serif;
 font-family: 'Hind Vadodara', sans-serif;
 */
 
+/* queries */
+
+/* phone */
+@media(max-width: 900px) {
+    #logo-title{
+        /* disappear */
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        z-index: -11;
+        width: 0px;
+    }
+    #title-block {
+        font-size: 2vw;
+    }
+    #sub-title {
+        /* dissapear */
+        position: absolute;
+        opacity: 0;
+        z-index: -11;
+        width: 0px;
+    }
+}
+
+
+
 /* variables */
 :root {
     /*null*/
@@ -123,6 +150,8 @@ video {
     align-items: center;
     background-color: black;
     padding: 0em;
+    max-height: 80vh;
+    min-height: 300px;
 }
 
 #ad-one-fade-in, #ad-one-fade-out {
@@ -140,9 +169,10 @@ video {
 }
 
 #ad-one {
-    width: 30%;
-    height: 30%;
-    margin-left: 35%;
+    width: 98%;
+    min-height: inherit;
+    max-height: inherit;
+    margin-left: 1%;
     margin-bottom: 0%;
     margin-top: 0%;
     padding: 0px;
@@ -170,16 +200,15 @@ video {
 }
 
 #main-title {
-    /* create a metallic gold linear gradient from top left to bottom right in text */
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.22), #ffffff7d, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to bottom right, rgb(142, 121, 3), rgb(142, 121, 3));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;;
+    color: rgb(245, 245, 245);
     font-size: 5em;
     font-weight: medium;
-    margin-bottom: 0em;
+    margin-bottom: .3em;
     padding-bottom: 0em;
     margin-top: .1em;
     font-style: italic;
+    line-height: .9em;
+
 }
 
 #sub-title {
