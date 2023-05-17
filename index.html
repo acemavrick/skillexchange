@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Skill Exchange</title>
-    <meta name="description" content="Website for Skill Exchange">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Fira+Sans:wght@500&family=Hind+Vadodara:wght@400;600&display=swap"
-      rel="stylesheet">
-
-    <!-- Set "assets/logo/logo.ico" as favicon and tab icon-->
-    <link rel="icon" type="image/x-icon" href="assets/logo/logo.ico">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/logo/logo.ico">
+    <script src="script.js"></script>
+    <!-- import Alegreya, Fira Sans, and Hind Vadadora from Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Fira+Sans|Hind+Vadodara" rel="stylesheet"> 
   </head>
   <body>
-    <div id="title-block" class="full-width">
-      <p id="main-title" class="flvl1 center">Skill Exchange</p>
-      <p id="sub-title" class="flvl2 center">Where skills meet needs.</p>
-    </div>
-
-    <div id="intro-block">
-    </div>
-    <div>
-      <div id="ad-one-fade-in" class="full-width"></div>
-      <!-- First Commercial -->
-      <div id="ad-one-div" class="full-width">
-        <video id='ad-one' controls preload="auto">
-          <source src="assets/ad_one.MP4" type="video/MP4">
-        </video>
+  <!-- Title -->
+  <!-- Subtitle with slogan -->
+  
+  
+  <div class="main">
+    <div class="navBar">
+      <div class="icon">
+        <h1 class="flvl1 logo">Skill Exchange</h1>
+        <h2 class="logo">Where Skills meet needs.</h2>
       </div>
-      <div id="ad-one-fade-out" class="full-width"></div>
-    </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">DESGIN</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
 
-    <div id="footer">
-      <p id="copyright"><i>© 2023, Skill Exchange Inc., All Rights Reserved</i></p>
+      <div class="search">
+        <input class="srch" type="search" name="" placeholder="Type To Text">
+        <a href="#"> <button class="btn">Search</button>
+      </div>
     </div>
-    <img id="logo" src="assets/logo/logo.png" alt="Logo">
-    <script src="script.js" async defer></script>
-  </body>
+  </div>
+  
+</body>
 </html>
